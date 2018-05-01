@@ -27,7 +27,7 @@ public class MapDemo {
         System.out.println("-----------------------------");
 
         for (String name : phoneBook.keySet()) { //keyを取ってくれる
-            System.out.println(name);
+            System.out.println("name: " + name);
         }
 
         System.out.println("------------ Collections -----------------");
